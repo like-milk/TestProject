@@ -11,6 +11,7 @@
 @interface testClass : NSObject
 
 - (void)sayHello;
+
 - (void)sayByeBye;
 
 @end

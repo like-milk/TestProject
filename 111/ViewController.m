@@ -35,6 +35,7 @@
     
     [self.testClass sayHello];
     
+    [self.testClass sayByeBye];
 }
 
 - (void)didReceiveMemoryWarning {
