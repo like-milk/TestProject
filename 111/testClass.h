@@ -10,4 +10,6 @@
 
 @interface testClass : NSObject
 
+- (void)sayByeBye;
+
 @end

@@ -10,4 +10,8 @@
 
 @implementation testClass
 
+- (void)sayByeBye {
+    NSLog(@"ByeBye!");
+}
+
 @end
