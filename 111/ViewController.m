@@ -10,13 +10,24 @@
 
 @interface ViewController ()
 
+@property (nonatomic, assign) NSInteger sum;
+
 @end
 
 @implementation ViewController
 
+//@synthesize sum;
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    NSInteger a = 1;
+    NSInteger b = 3;
+    self.sum = a + b;
+    
+    NSLog(@"%ld", (long)self.sum);
+    
 }
 
 - (void)didReceiveMemoryWarning {
