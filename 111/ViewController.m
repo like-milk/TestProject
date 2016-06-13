@@ -31,6 +31,10 @@
     
     NSLog(@"%ld", (long)self.sum);
     
+    self.testClass = [testClass new];
+    
+    [self.testClass sayHello];
+    
 }
 
 - (void)didReceiveMemoryWarning {
