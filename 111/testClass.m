@@ -10,6 +10,9 @@
 
 @implementation testClass
 
+- (void)sayByeBye {
+    NSLog(@"ByeBye!");
+}
 - (void)sayHello {
     NSLog(@"Hello!");
 }
